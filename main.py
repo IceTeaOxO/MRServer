@@ -36,6 +36,7 @@ def SpeechResult():
     speech = request.form.get('speech')
     # 在這裡進行資料處理或其他操作
     print("Received speech:", speech)
+    speech_list.append(speech)
     return speech_list
 
 @app.route('/speech', methods=['GET'])
