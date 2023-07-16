@@ -1,0 +1,300 @@
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。
+good welcome how to help you   您好，歡迎光臨本行，請問您要什麼服務?
+i money take   我想提領現金。
+you saving_book number   請問您要提款的帳號是多少?
+saving_book 123456   我的帳號為 123456。
+taiwan money   請問是台幣嗎？
+taiwan money is   是台幣。
+money take how much   請問您欲提款的金額是多少?
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give me confirm money use what write sign   請把您的身分證給我看一下，並請簽署確認此筆交易之目的與用途。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+thank you paper you money commissions deduce how much   謝謝，現在請您確認提款金額與手續費。
+good check finish yes   好的，我已經確認數字上的所有資料。
+check yes paper sign   確認完畢，請簽署此交易確認單。
+sign finish   簽署完成。
+good I money take you wait   太好了，現在我將會為您核發現金，請稍候一會。

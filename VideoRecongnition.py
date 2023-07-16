@@ -53,7 +53,9 @@ def extract_keypoints_without_face(results):
 # 將結果送到server
 def sendResult(data):
     url = 'http://127.0.0.1:8080/RR'
-    response = requests.post(url, data={'value': data})
+    response = requests.post(url, data = {
+        'value': data
+        })
     if response.status_code == 200:
         print('Data sent successfully.')
     else:
