@@ -62,7 +62,7 @@ reverse_target_char_index = dict(
     (i, char) for char, i in target_token_index.items())
         
 
-model_trans = load_model("model0529-20.h5")
+model_trans = load_model("model071604-20.h5")
 
 # 辨識語序方法
 def translate(model_opt='check yes paper sign'):
@@ -97,24 +97,28 @@ def translate(model_opt='check yes paper sign'):
     # print('Decoded sentence:', decoded_sentence)
     return decoded_sentence
 def check_timeout():
+    global alarm_set  # 声明全局变量
+    global last_updated_time  # 声明全局变量
+    global data_list
+    global trans_list
     # 每過一秒就判斷一次
     # 滿足條件就翻譯語序
-    if (alarm_set==True and (abs(time.time() - last_updated_time) >= 10)):
+    if (alarm_set and (abs(time.time() - last_updated_time) >= 10)):
         # print(time.time())    
-        # # 修改DATA型態
-        # data_result = ' '.join(data_list)#將[1,2]的資料型態轉為"1 2"
-        # # 判斷語序
-        # trans_result = translate(data_result)#' '.join(sentence)
-        # print('---result---', trans_result)
-        # # 將結果存在trans_list中
-        # trans_list.append(trans_result)
-        # 將通知取消
-        # alarm_set = False
-        # # 清空 data_list 資料
-        # data_list = []
+        # 修改DATA型態
+        data_result = ' '.join(data_list)#將[1,2]的資料型態轉為"1 2"
+        # 判斷語序
+        trans_result = translate(data_result)#' '.join(sentence)
+        print('---result---', trans_result)
+        # 將結果存在trans_list中
+        trans_list.append(trans_result)
+        
+        # 清空 data_list 資料
+        data_list = []
         #重新計時
         last_updated_time = time.time()
-
+        # 將通知取消
+        alarm_set = False
 
 
 
