@@ -5,7 +5,7 @@ from keras.models import load_model
 import numpy as np
 import time
 from threading import Thread
-
+import urllib.parse
 # 前置設定
 app = Flask(__name__)
 app = Flask(__name__, static_folder='static')
@@ -111,6 +111,7 @@ def check_timeout():
         trans_result = translate(data_result)#' '.join(sentence)
         print('---result---', trans_result)
         # 將結果存在trans_list中
+        trans_result = urllib.parse.unquote(trans_result)
         trans_list.append(trans_result)
         
         # 清空 data_list 資料
@@ -153,6 +154,7 @@ def SpeechResult():
     speech = request.form.get('speech')
     # 這裡進行資料處理或其他操作
     print("Received speech:", speech)
+    speech = urllib.parse.unquote(speech)
     # 將POST的資料儲存進全域變數
     speech_list.append(speech)
     return speech_list
@@ -174,6 +176,7 @@ def RecongResult():
         }
     '''
     value = request.form.get('value')
+    value = urllib.parse.unquote(value)
     # 將POST資料存進全域變數
     data_list.append(value)
     # 如果有新的手語儲存，就設alarm_set = True，並更新last_updated_time

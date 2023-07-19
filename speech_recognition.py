@@ -20,8 +20,10 @@ def recognize_from_microphone():
             print("Recognized: {}".format(speech_recognition_result.text))
             
             # 將辨識結果送到伺服器
+            # speech_recognition_result.text
+            encoded_text = speech_recognition_result.text.encode('utf-8')
             data = {
-                'speech': speech_recognition_result.text
+                'speech': encoded_text
             }
             url = 'http://127.0.0.1:8080/speech'
             response = requests.post(url, data=data)
