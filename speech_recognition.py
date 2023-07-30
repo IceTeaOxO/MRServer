@@ -4,6 +4,8 @@ import keyboard
 import requests
 
 def recognize_from_microphone():
+    # Create a Session object
+    session = requests.Session()
     # This example requires environment variables named "SPEECH_KEY" and "SPEECH_REGION"
     # speech_config = speechsdk.SpeechConfig(subscription=os.environ.get('SPEECH_KEY'), region=os.environ.get('SPEECH_REGION'))
     speech_config = speechsdk.SpeechConfig(subscription='e9ea122e90f94c999d884ce0c240c77d', region='eastasia')
@@ -21,13 +23,17 @@ def recognize_from_microphone():
             
             # 將辨識結果送到伺服器
             # speech_recognition_result.text
-            encoded_text = speech_recognition_result.text.encode('utf-8')
+            # encoded_text = speech_recognition_result.text.encode('utf-8')
             data = {
-                'speech': encoded_text
+                'speech': speech_recognition_result.text
             }
             url = 'http://127.0.0.1:8080/speech'
-            response = requests.post(url, data=data)
-            print("Response from server: {}".format(response.text))
+            try:
+                response = session.post(url, data=data)
+                response.raise_for_status() # Will raise an HTTPError if the HTTP request returned an unsuccessful status code
+                print("Response from server: {}".format(response.text))
+            except requests.RequestException as e:
+                print("Failed to send data to server: {}".format(e))
             
         elif speech_recognition_result.reason == speechsdk.ResultReason.NoMatch:
             print("No speech could be recognized: {}".format(speech_recognition_result.no_match_details))

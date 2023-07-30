@@ -12,13 +12,14 @@ stream_height = 960  # 影像高度
 stream_fps = 30  # 影像串流幀率
 
 # 載入模型
-new_model = load_model("./model_hands.keras")
-actions = np.array(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'check', 'finish', 'give_you', 'good', 'i', 'id_card', 'is', 'money', 'saving_book', 'sign', 'taiwan', 'take', 'ten_thousand', 'yes'])
+new_model = load_model("./model1_0730.keras")#####model1_0730.keras
+actions = np.array(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'check', 'deposit', 'finish', 'get', 'give_you','good', 'i', 'id_card', 'is', 'job', 'money', 
+                    'saving_book', 'sign', 'taiwan', 'take', 'ten_thousand', 'yes'])
 sequence = []
 sentence = []
 predictions = []
 threshold = 0.7
-    
+session = requests.Session()
 def initMss():
     # 初始化 mss
     sct = mss()
@@ -51,15 +52,19 @@ def extract_keypoints_without_face(results):
     return np.concatenate([lh, rh])
 
 # 將結果送到server
+# 使用Session發送POST請求，使用Session對象來重用底層的TCP連接
 def sendResult(data):
     url = 'http://127.0.0.1:8080/RR'
-    response = requests.post(url, data = {
-        'value': data
-        })
-    if response.status_code == 200:
-        print('Data sent successfully.')
-    else:
-        print('Failed to send data.')
+    try:
+        response = session.post(url, data = {
+            'value': data
+            })
+        if response.status_code == 200:
+            print('Data sent successfully.')
+        else:
+            print('Failed to send data.')
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred while sending data: {e}")
 
 
 

@@ -11,13 +11,15 @@ app = Flask(__name__)
 app = Flask(__name__, static_folder='static')
 scheduler = BackgroundScheduler()
 # 全域變數負責儲存資料
-data_list = [] # 儲存手語辨識結果
+data_list = [] # 儲存手語辨識即時結果
 number_list = [] # 儲存假資料
 speech_list = [] # 儲存語音辨識結果
 trans_list = [] # 儲存語序辨識結果
+histor_data_list = []# 儲存手語辨識的歷史資料
 alarm_set = False
 last_updated_time = 0
 
+# ============================
 # 載入語序模型
 data_path_trans = 'EngToChinese.txt'
 input_texts = []
@@ -62,8 +64,8 @@ reverse_target_char_index = dict(
     (i, char) for char, i in target_token_index.items())
         
 
-model_trans = load_model("model071604-20.h5")
-
+model_trans = load_model("model071604-20.h5")########
+# ===========================================
 # 辨識語序方法
 def translate(model_opt='check yes paper sign'):
     
@@ -96,6 +98,8 @@ def translate(model_opt='check yes paper sign'):
     # print('Input sentence:', model_opt)
     # print('Decoded sentence:', decoded_sentence)
     return decoded_sentence
+
+
 def check_timeout():
     global alarm_set  # 声明全局变量
     global last_updated_time  # 声明全局变量
@@ -120,8 +124,6 @@ def check_timeout():
         last_updated_time = time.time()
         # 將通知取消
         alarm_set = False
-
-
 
 
 
@@ -179,6 +181,7 @@ def RecongResult():
     value = urllib.parse.unquote(value)
     # 將POST資料存進全域變數
     data_list.append(value)
+    histor_data_list.append(value)
     # 如果有新的手語儲存，就設alarm_set = True，並更新last_updated_time
     global alarm_set
     alarm_set = True
@@ -199,12 +202,12 @@ def get_RecongResult():
     "0"
     ]
     '''
-    return jsonify(data_list)
+    return jsonify(histor_data_list)
 
 # 儲存語序排序結果
 @app.route('/TL', methods=['POST'])
 def Translate():
-    
+    # 沒有使用
     
     return trans_list
 
