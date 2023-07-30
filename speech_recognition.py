@@ -31,7 +31,8 @@ def recognize_from_microphone():
             try:
                 response = session.post(url, data=data)
                 response.raise_for_status() # Will raise an HTTPError if the HTTP request returned an unsuccessful status code
-                print("Response from server: {}".format(response.text))
+                # print("Response from server: {}".format(response.text))
+                print("sueecss")
             except requests.RequestException as e:
                 print("Failed to send data to server: {}".format(e))
             
