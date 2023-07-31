@@ -212,7 +212,7 @@ class Server:
         # thread.start()
         self.scheduler.add_job(self.check_timeout, 'interval', seconds=1)
         self.scheduler.start()
-        self.app.run(host="127.0.0.1", port=8080, debug=True)
+        self.app.run(host="0.0.0.0", port=8080, debug=True)
 
 
 if __name__ == '__main__':
