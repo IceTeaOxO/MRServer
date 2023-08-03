@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, redirect
 from apscheduler.schedulers.background import BackgroundScheduler
 import json
 import numpy as np
@@ -6,7 +6,7 @@ import time
 from threading import Thread
 import urllib.parse
 from keras.models import load_model
-
+import subprocess
 class Server:
     def __init__(self):
         self.app = Flask(__name__, static_folder='static')
@@ -20,7 +20,18 @@ class Server:
         self.alarm_set = False
         self.last_updated_time = 0
 
-        self.model_trans, self.input_token_index, self.target_token_index, self.reverse_target_char_index, self.max_encoder_seq_length, self.max_decoder_seq_length, self.num_encoder_tokens, self.num_decoder_tokens = self.load_trans_model()
+        # 初始化模型列表和當前選擇的模型
+        self.available_models = {"model1": "model071604-20.h5", "model2": "model0529-20.h5"}  # 你可以根據需要添加更多模型
+        self.current_model_name = "model1"
+        self.model_trans, self.input_token_index, self.target_token_index, self.reverse_target_char_index, self.max_encoder_seq_length, self.max_decoder_seq_length, self.num_encoder_tokens, self.num_decoder_tokens = self.load_trans_model(self.current_model_name)
+        
+        # 初始化腳本列表和當前選擇的腳本
+        self.available_hands_models = {"model1": "VideoRecognition.py", "model2": "VideoRecognition.py"}  # 你可以根據需要添加更多模型
+        self.current_hands_model_name = "model1"
+        self.process = None
+        
+        self.speech_process = None
+        # self.model_trans, self.input_token_index, self.target_token_index, self.reverse_target_char_index, self.max_encoder_seq_length, self.max_decoder_seq_length, self.num_encoder_tokens, self.num_decoder_tokens = self.load_trans_model()
 
         self.initialize_routes()
         self.run()
@@ -28,10 +39,12 @@ class Server:
         lst.append(item)
         if len(lst) > max_length:
             lst.pop(0)
-    def load_trans_model(self):
+    def load_trans_model(self, model_name):
         # (Same as original code for loading the translation model)
         # ...
         # ============================
+        # 載入選定的模型
+        model_file = self.available_models[model_name]
         # 載入語序模型
         data_path_trans = 'EngToChinese.txt'
         input_texts = []
@@ -76,10 +89,18 @@ class Server:
             (i, char) for char, i in target_token_index.items())
                 
 
-        model_trans = load_model("model071604-20.h5")########
+        model_trans = load_model(model_file)########
+        print("切換模型:", model_file)
         # ===========================================
         return model_trans, input_token_index, target_token_index, reverse_target_char_index, max_encoder_seq_length, max_decoder_seq_length, num_encoder_tokens, num_decoder_tokens
 
+    def switch_model(self, model_name):
+        # 更新當前選擇的模型並重新載入
+        self.current_model_name = model_name
+        self.model_trans, self.input_token_index, self.target_token_index, self.reverse_target_char_index, self.max_encoder_seq_length, self.max_decoder_seq_length, self.num_encoder_tokens, self.num_decoder_tokens = self.load_trans_model(model_name)
+    
+    
+    
     def translate(self, model_opt):
         # (Same as original code for translation)
         # ...
@@ -144,11 +165,70 @@ class Server:
     #         time.sleep(5)
     #         self.number_list.append(num)
     #         num += 1
+    def switch_hands_model(self, model_name):
+        # 終止目前運行的腳本
+        hands_model_file = self.available_hands_models[model_name]
+        print("切換手語辨識腳本",hands_model_file)
+        if self.process:
+            self.process.terminate()
+            self.process = None
 
+        # 更新當前選擇的模型並重新載入
+        self.current_hands_model_name = model_name
+        self.process = subprocess.Popen(['python', hands_model_file])
+
+
+    def stop_external_script(self):
+        if self.process:
+            self.process.terminate()
+            self.process = None
+    
+    def start_speech(self,speech_name='speech_recognition.py'):
+        self.speech_process = subprocess.Popen(['python', speech_name])
+    
+    def stop_speech(self):
+        if self.speech_process:
+            self.speech_process.terminate()
+            self.speech_process = None
+            
+    
     def initialize_routes(self):
         @self.app.route('/')
         def index():
-            return render_template('index.html')
+            return render_template('index.html',model_name=self.available_models[self.current_model_name],hands_model_name=self.available_hands_models[self.current_hands_model_name])
+        
+        @self.app.route('/change_model', methods=['POST'])
+        def change_model():
+            selected_model = request.form.get('model')
+            self.switch_model(selected_model)  # 切換到選擇的模型
+            print("切換到語序模型:", selected_model)
+            return redirect('/')  # 重定向回主頁
+        
+        @self.app.route('/change_hands_model', methods=['POST'])
+        def change_hands_model():
+            selected_hands_model = request.form.get('model')
+            self.switch_hands_model(selected_hands_model)  # 切換到選擇的模型
+            print(f"切換到手語模型: {selected_hands_model}")
+            return redirect('/')
+        
+        
+
+        @self.app.route('/stop', methods=['POST'])
+        def stop():
+            self.stop_external_script()
+            print("已停止外部腳本。")
+            return redirect('/')
+        
+        @self.app.route('/stopSpeech', methods=['POST'])
+        def stopSpeech():
+            self.stop_speech()
+            print("已停止語音轉文字。")
+            return redirect('/')
+        @self.app.route('/startSpeech', methods=['POST'])
+        def startSpeech():
+            self.start_speech()
+            print("已開啟語音轉文字。")
+            return redirect('/')
         # @self.app.route('/test', methods=['GET'])
         # def get_test():
         #     return jsonify(self.number_list)
@@ -206,6 +286,7 @@ class Server:
         @self.app.route('/TL', methods=['GET'])
         def get_Translate():
             return jsonify(self.trans_list)
+        
 
     def run(self):
         # thread = Thread(target=self.add_number)
