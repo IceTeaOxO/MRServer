@@ -287,7 +287,16 @@ class Server:
         def get_Translate():
             return jsonify(self.trans_list)
         
-
+        @self.app.route('/DATA', methods=['GET'])
+        def get_DATA():
+            # history_json = json.dumps(self.histor_data_list)
+            # translate_json = json.dumps(self.trans_list)
+            # speech_json = json.dumps(self.speech_list)
+            # return render_template('data.html', history=history_json, translate=translate_json, speech=speech_json)
+            return render_template('data.html', history=self.histor_data_list, translate=self.trans_list, speech=self.speech_list)
+        @self.app.route('/get_data', methods=['GET'])
+        def get_data():
+            return jsonify(history=self.histor_data_list, translate=self.trans_list, speech=self.speech_list)
     def run(self):
         # thread = Thread(target=self.add_number)
         # thread.start()

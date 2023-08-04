@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動態列表</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .list-container {
+            margin: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>回到控制台</h2>
+    <form action="/" method="get">
+        <input type="submit" value="回到控制台">
+    </form>
+    <br>
+    <div id="list1" class="list-container">
+        <h2>手語辨識結果</h2>
+        <ul></ul>
+    </div>
+    <div id="list2" class="list-container">
+        <h2>語序辨識結果</h2>
+        <ul></ul>
+    </div>
+    <div id="list3" class="list-container">
+        <h2>語音轉文字</h2>
+        <ul></ul>
+    </div>
+
+    <script>
+        var data1 = {{ history | tojson | safe }};
+        var data2 = {{ translate | tojson | safe }};
+        var data3 = {{ speech | tojson | safe }};
+
+        function fetchData() {
+            fetch('/get_data')
+                .then(response => response.json())
+                .then(data => {
+                    renderList('list1', data.history);
+                    renderList('list2', data.translate);
+                    renderList('list3', data.speech);
+                });
+        }
+
+        function renderList(id, data) {
+            var list = document.getElementById(id).getElementsByTagName('ul')[0];
+            list.innerHTML = ''; // 清空列表以便重新渲染
+            data.forEach(function(item) {
+                var li = document.createElement('li');
+                li.appendChild(document.createTextNode(item));
+                list.appendChild(li);
+            });
+        }
+
+        setInterval(fetchData, 3000); // 每5秒執行一次fetchData
+    </script>
+</body>
+</html>
