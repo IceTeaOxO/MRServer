@@ -7,14 +7,18 @@ from keras.models import load_model
 import time
 import requests
 # 影像串流設定
-stream_width = 1280  # 影像寬度
-stream_height = 960  # 影像高度
-stream_fps = 30  # 影像串流幀率
+stream_width = 720#1280  # 影像寬度
+stream_height = 440#960  # 影像高度
+stream_fps = 60  # 影像串流幀率
 
 # 載入模型
-new_model = load_model("./model1_0730.keras")#####model1_0730.keras
-actions = np.array(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'check', 'deposit', 'finish', 'get', 'give_you','good', 'i', 'id_card', 'is', 'job', 'money', 
-                    'saving_book', 'sign', 'taiwan', 'take', 'ten_thousand', 'yes'])
+new_model = load_model("./model1_0828.h5")#####model1_0730.keras
+
+# model1_0828
+actions = np.array(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'apply', 'check', 'deposit', 'finish', 'get', 'give_you', 'good',
+                    'i', 'id_card', 'is', 'job', 'money', 'same', 'saving_book', 'sheet', 'sign', 'stamp', 'taiwan', 'take', 'ten_thousand',
+                    'thank_you', 'this', 'thousands', 'transfer', 'transfer_in', 'transfer_out', 'want', 'yes', 'you']) 
+
 sequence = []
 sentence = []
 predictions = []
@@ -24,7 +28,7 @@ def initMss():
     # 初始化 mss
     sct = mss()
     # 設定影像串流視窗大小
-    stream_bbox = {'top': 0, 'left': 0, 'width': stream_width, 'height': stream_height}
+    stream_bbox = {'top': 100, 'left': 100, 'width': stream_width, 'height': stream_height}
     return sct,stream_bbox
 
 def initMediapipe():

@@ -1,3 +1,4 @@
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -10,21 +11,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -37,21 +33,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -64,21 +55,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -91,21 +77,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -118,21 +99,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -145,21 +121,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -172,21 +143,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -199,21 +165,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -226,21 +187,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -253,21 +209,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -280,21 +231,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -307,21 +253,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -334,21 +275,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -361,21 +297,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -388,21 +319,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -415,21 +341,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -442,21 +363,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -469,21 +385,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -496,21 +407,16 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
 i money take   我想提領現金。
 saving_book 123456   我的帳號為 123456。
 taiwan money is   是台幣。
@@ -523,18 +429,78 @@ yes   對。
 job get money   是現金收入。
 good   好的。
 taiwan money deposit   存到台幣帳戶。
-i 1 money take   我想提領現金
-saving_book finish 123456   我的帳號為123456
-sign saving_book finish 123456   我的帳號為123456
-saving_book finish 12345   我的帳號為123456
-taiwan money 1 is   是台幣
-check taiwan money 8 is   是台幣
-taiwan money 5 0 is   是台幣
-id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
-id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
-good check sign finish yes   好的，我已經確認數字上的所有資料。
-good check id_card finish yes   好的，我已經確認數字上的所有資料。
-0   0
-7   7
-8   8
-9   9
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
+i money take   我想提領現金。
+saving_book 123456   我的帳號為 123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+saving_book deposit   我要存款。
+yes   對。
+job get money   是現金收入。
+good   好的。
+taiwan money deposit   存到台幣帳戶。
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
+i money take   我想提領現金。
+saving_book 123456   我的帳號為 123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+saving_book deposit   我要存款。
+yes   對。
+job get money   是現金收入。
+good   好的。
+taiwan money deposit   存到台幣帳戶。
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
+money transfer_in saving_book 54321   轉入的帳戶為54321
+i money take   我想提領現金。
+saving_book 123456   我的帳號為 123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出 5 萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+saving_book deposit   我要存款。
+yes   對。
+job get money   是現金收入。
+good   好的。
+taiwan money deposit   存到台幣帳戶。
+0789   0789
+money transfer_out saving_book 12345   轉出的帳戶為12345
+you good I want apply money transfer   您好，我想要辦理轉帳
+apply sheet this is   這是轉帳表單
+this id_card stamp   好的，這裡是身份證與印章
+this money 5 thousand is   金額是台幣五千元
+same   相同
+this yes   了解，確認無誤
+thank_you   謝謝
