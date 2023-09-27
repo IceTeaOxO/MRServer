@@ -20,12 +20,14 @@ stream_height = 440#960  # 影像高度
 stream_fps = 60  # 影像串流幀率
 
 # 載入模型
-new_model = load_model("./handsModel/model1_0828.h5")#####model1_0730.keras
+new_model = load_model("./handsModel/model1_service1_0924.keras")#####model1_0730.keras
 
-# model1_0828
-actions = np.array(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'apply', 'check', 'deposit', 'finish', 'get', 'give_you', 'good',
-                    'i', 'id_card', 'is', 'job', 'money', 'same', 'saving_book', 'sheet', 'sign', 'stamp', 'taiwan', 'take', 'ten_thousand',
-                    'thank_you', 'this', 'thousands', 'transfer', 'transfer_in', 'transfer_out', 'want', 'yes', 'you']) 
+# actions = np.array(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'apply', 'check', 'deposit', 'finish', 'get', 'give_you', 'good',
+#                     'i', 'id_card', 'is', 'job', 'money', 'same', 'saving_book', 'sheet', 'sign', 'stamp', 'taiwan', 'take', 'ten_thousand',
+#                     'thank_you', 'this', 'thousands', 'transfer', 'transfer_in', 'transfer_out', 'want', 'yes', 'you']) 
+actions = np.array(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'check', 'finish', 'give_you', 'good',
+                    'i', 'id_card', 'is','money', 'saving_book', 'sign', 'taiwan', 'take', 'ten_thousand', 'yes'])
+
 
 sequence = []
 sentence = []
@@ -184,9 +186,11 @@ while True:
         if np.unique(predictions[-10:])[0]==np.argmax(res):                 
             # 如果機率>0.7
             if res[np.argmax(res)] > threshold: 
-                # print(actions[np.argmax(res)])
+                print(actions[np.argmax(res)])
                 # 印出目前的句子長度
                 print(len(sentence))
+                
+                
                 # 卡住???
                 if len(sentence) > 0: 
                     # 如果辨識結果不一樣，則加入句子

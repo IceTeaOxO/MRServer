@@ -21,13 +21,15 @@ class Server:
         self.last_updated_time = 0
 
         # 初始化模型列表和當前選擇的模型
-        self.available_models = {"model1": "model071604-20.h5", "model2": "model0529-20.h5", "model3": "model2_0904.h5"}  # 你可以根據需要添加更多模型
+        # 語序辨識模型
+        self.available_models = {"model1": "model/model071604-20.h5", "model2": "model/model0529-20.h5", "model3": "model/model2_0904.h5"}  # 你可以根據需要添加更多模型
         self.current_model_name = "model1"
         self.model_trans, self.input_token_index, self.target_token_index, self.reverse_target_char_index, self.max_encoder_seq_length, self.max_decoder_seq_length, self.num_encoder_tokens, self.num_decoder_tokens = self.load_trans_model(self.current_model_name)
         
         # 初始化腳本列表和當前選擇的腳本
         # 若有新的語序模型可添加在此列表中，開啟伺服器就預先載入
-        self.available_hands_models = {"model1": "VideoRecognition.py", "model2": "VideoRecognition.py"}  # 你可以根據需要添加更多模型
+        # 手語辨識模型腳本
+        self.available_hands_models = {"model1": "VideoRecognition.py", "model2": "VideoRecognition0924_s1.py", "model3": "VideoRecognition0924_s2.py"}  # 你可以根據需要添加更多模型
         self.current_hands_model_name = "model1"
         self.process = None
         
