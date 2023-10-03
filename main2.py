@@ -15,7 +15,7 @@ class Server:
         self.data_list:list = []  # 儲存手語辨識即時結果
         self.trans_list:list = []  # 儲存語序辨識結果
         self.speech_list:list = []  # 儲存語音辨識結果
-        self.histor_data_list:list = []# 儲存手語辨識的歷史資料
+        self.history_data_list:list = []# 儲存手語辨識的歷史資料
 
         self.alarm_set = False
         self.last_updated_time = 0
@@ -140,11 +140,15 @@ class Server:
     def check_timeout(self):
         # 每過一秒就判斷一次
         # 滿足條件就翻譯語序
-        if (self.alarm_set and (abs(time.time() - self.last_updated_time) >= 10)):
+        if (self.alarm_set and (abs(time.time() - self.last_updated_time) >= 5)):
             # 修改DATA型態
             data_result = ' '.join(self.data_list)#將[1,2]的資料型態轉為"1 2"
             # 判斷語序
             trans_result = self.translate(data_result)#' '.join(sentence)
+            
+            # 寫死
+            trans_result = "我要提款"
+            
             print('---result---', trans_result)
             # 將結果存在trans_list中
             trans_result = urllib.parse.unquote(trans_result)
@@ -272,7 +276,8 @@ class Server:
             # 將POST資料存進全域變數
             self.data_list.append(value)
             # self.histor_data_list.append(value)
-            self.append_to_list(self.histor_data_list,value)
+            # 歷史辨識資料
+            self.append_to_list(self.history_data_list,value)
             # 如果有新的手語儲存，就設alarm_set = True，並更新last_updated_time
             # global alarm_set
             self.alarm_set = True
@@ -284,7 +289,8 @@ class Server:
 
         @self.app.route('/RR', methods=['GET'])
         def get_RecongResult():
-            return jsonify(self.histor_data_list)
+            return jsonify(self.data_list)
+            # return jsonify(self.history_data_list)
 
         @self.app.route('/TL', methods=['GET'])
         def get_Translate():
@@ -295,11 +301,12 @@ class Server:
             # history_json = json.dumps(self.histor_data_list)
             # translate_json = json.dumps(self.trans_list)
             # speech_json = json.dumps(self.speech_list)
-            # return render_template('data.html', history=history_json, translate=translate_json, speech=speech_json)
-            return render_template('data.html', history=self.histor_data_list, translate=self.trans_list, speech=self.speech_list)
+            # return render_template('data.html', history=self.history_data_list, translate=self.trans_list, speech=self.speech_list)
+            return render_template('data.html', history=self.data_list, translate=self.trans_list, speech=self.speech_list)
         @self.app.route('/get_data', methods=['GET'])
         def get_data():
-            return jsonify(history=self.histor_data_list, translate=self.trans_list, speech=self.speech_list)
+            # return jsonify(history=self.history_data_list, translate=self.trans_list, speech=self.speech_list)
+            return jsonify(history=self.data_list, translate=self.trans_list, speech=self.speech_list)
     def run(self):
         # thread = Thread(target=self.add_number)
         # thread.start()
