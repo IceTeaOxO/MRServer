@@ -1,0 +1,361 @@
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為 123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+i money take   我想提領現金。
+saving_book 1 2 3 4 5 6   我的帳號為123456。
+taiwan money is   是台幣。
+5 ten_thousand   我要提出5萬元台幣。
+id_card give_you sign finish   這是我的身分證，我已經在上面簽名了。
+good check finish yes   好的，我已經確認數字上的所有資料。
+sign finish   簽署完成。
+money take   我想提領現金
+saving_book finish 1 2 3 4 5 6   我的帳號為123456
+sign saving_book finish 1 2 3 4 5 6   我的帳號為123456
+saving_book finish 1 2 3 4 5   我的帳號為123456
+taiwan money 1 is   是台幣
+check taiwan money 8 is   是台幣
+taiwan money 5 0 is   是台幣
+id_card sign give_you sign 5 finish   這是我的身分證，我已經在上面簽名了
+id_card sign give_you sign finish   這是我的身分證，我已經在上面簽名了
+good check sign finish yes   好的，我已經確認數字上的所有資料。
+good check id_card finish yes   好的，我已經確認數字上的所有資料。
+0 7 8 9   0789

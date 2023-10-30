@@ -36,13 +36,60 @@
         li:last-child {
             border-bottom: none;
         }
+
+        /* 将按钮居中 */
+        .center {
+            display: flex;
+            justify-content: center;
+            
+            height: 10vh;
+        }
+        /* 设置按钮样式 */
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            
+        }
+
+        .button {
+            background-color: #3498db; /* 背景颜色 */
+            color: #fff; /* 文本颜色 */
+            padding: 10px 20px; /* 内边距 */
+            font-size: 28px; /* 字体大小 */
+            border: none; /* 移除边框 */
+            cursor: pointer; /* 鼠标样式 */
+            border-radius: 5px; /* 圆角 */
+            margin-left: 60px;
+            margin-top: 50px;
+        }
     </style>
 </head>
 <body>
-    <h2>回到控制台</h2>
+    <!-- <h2>回到控制台</h2>
     <form action="/" method="get">
         <input type="submit" value="回到控制台">
+    </form> -->
+    <div class="center">
+    <form action="/change_hands_model" method="get">
+        <button class="button" type="submit">開啟手語辨識</button>
     </form>
+    <form action="/stop" method="get">
+        <button class="button" type="submit">關閉手語辨識</button>
+    </form>
+    
+    </div>
+
+
+    <div class="center">
+        <form action="/startSpeech" method="get">
+            <button class="button" type="submit">開啟語音辨識</button>
+        </form>
+        <form action="/stopSpeech" method="get">
+            <button class="button" type="submit">關閉語音辨識</button>
+        </form>
+    </div>
+
     <br>
     <div id="list1" class="list-container">
         <h2>手語辨識結果</h2>

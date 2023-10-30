@@ -7,6 +7,7 @@ from threading import Thread
 import urllib.parse
 from keras.models import load_model
 import subprocess
+
 class Server:
     def __init__(self):
         self.app = Flask(__name__, static_folder='static')
@@ -22,14 +23,14 @@ class Server:
 
         # 初始化模型列表和當前選擇的模型
         # 語序辨識模型
-        self.available_models = {"model1": "model/model071604-20.h5", "model2": "model/model0529-20.h5", "model3": "model/model2_0904.h5"}  # 你可以根據需要添加更多模型
+        self.available_models = {"model1": "model\model2_service1_1029.h5"}  # 你可以根據需要添加更多模型
         self.current_model_name = "model1"
         self.model_trans, self.input_token_index, self.target_token_index, self.reverse_target_char_index, self.max_encoder_seq_length, self.max_decoder_seq_length, self.num_encoder_tokens, self.num_decoder_tokens = self.load_trans_model(self.current_model_name)
         
         # 初始化腳本列表和當前選擇的腳本
         # 若有新的語序模型可添加在此列表中，開啟伺服器就預先載入
         # 手語辨識模型腳本
-        self.available_hands_models = {"model1": "VideoRecognition.py", "model2": "VideoRecognition0924_s1.py", "model3": "VideoRecognition0924_s2.py"}  # 你可以根據需要添加更多模型
+        self.available_hands_models = {"model1": "VideoRecognition0924_s1.py"}  # 你可以根據需要添加更多模型
         self.current_hands_model_name = "model1"
         self.process = None
         
@@ -49,7 +50,7 @@ class Server:
         # 載入選定的模型
         model_file = self.available_models[model_name]
         # 載入語序模型
-        data_path_trans = 'EngToChinese.txt'
+        data_path_trans = 'EngToChinese_service1_1029.txt'
         input_texts = []
         target_texts = []
 
@@ -147,7 +148,7 @@ class Server:
             trans_result = self.translate(data_result)#' '.join(sentence)
             
             # 寫死
-            trans_result = "我要提款"
+            # trans_result = "我要提款"
             
             print('---result---', trans_result)
             # 將結果存在trans_list中
@@ -164,25 +165,19 @@ class Server:
     
 
         
-    # def add_number(self):
-    #     # (Same as original code for add_number)
-    #     # ...
-    #     num = 0
-    #     while True:
-    #         time.sleep(5)
-    #         self.number_list.append(num)
-    #         num += 1
+
     def switch_hands_model(self, model_name):
         # 終止目前運行的腳本
-        hands_model_file = self.available_hands_models[model_name]
+        hands_model_file = model_name
         print("切換手語辨識腳本",hands_model_file)
         if self.process:
             self.process.terminate()
             self.process = None
-
         # 更新當前選擇的模型並重新載入
         self.current_hands_model_name = model_name
+        
         self.process = subprocess.Popen(['python', hands_model_file])
+        # self.process = subprocess.Popen(['python', "VideoRecognition0924_s1.py"])
 
 
     def stop_external_script(self):
@@ -202,8 +197,9 @@ class Server:
     def initialize_routes(self):
         @self.app.route('/')
         def index():
-            return render_template('index.html',model_name=self.available_models[self.current_model_name],hands_model_name=self.available_hands_models[self.current_hands_model_name])
-        
+            #將模型名稱顯示在網頁
+            # return render_template('index.html',model_name=self.available_models[self.current_model_name],hands_model_name=self.available_hands_models[self.current_hands_model_name])
+            return render_template('data.html', history=self.data_list, translate=self.trans_list, speech=self.speech_list)
         @self.app.route('/change_model', methods=['POST'])
         def change_model():
             selected_model = request.form.get('model')
@@ -218,10 +214,22 @@ class Server:
             print(f"切換到手語模型: {selected_hands_model}")
             return redirect('/')
         
+        @self.app.route('/change_hands_model', methods=['GET'])
+        def change_hands_model_get():
+            selected_hands_model = "VideoRecognition0924_s1.py"
+            self.switch_hands_model(selected_hands_model)  # 切換到選擇的模型
+            print(f"切換到手語模型: {selected_hands_model}")
+            return redirect('/')
         
 
         @self.app.route('/stop', methods=['POST'])
         def stop():
+            self.stop_external_script()
+            print("已停止外部腳本。")
+            return redirect('/')
+        
+        @self.app.route('/stop', methods=['GET'])
+        def stop_get():
             self.stop_external_script()
             print("已停止外部腳本。")
             return redirect('/')
@@ -231,14 +239,26 @@ class Server:
             self.stop_speech()
             print("已停止語音轉文字。")
             return redirect('/')
+        
+        @self.app.route('/stopSpeech', methods=['GET'])
+        def stopSpeech_get():
+            self.stop_speech()
+            print("已停止語音轉文字。")
+            return redirect('/')
+        
         @self.app.route('/startSpeech', methods=['POST'])
         def startSpeech():
             self.start_speech()
             print("已開啟語音轉文字。")
             return redirect('/')
-        # @self.app.route('/test', methods=['GET'])
-        # def get_test():
-        #     return jsonify(self.number_list)
+        
+        @self.app.route('/startSpeech', methods=['GET'])
+        def startSpeech_get():
+            self.start_speech()
+            print("已開啟語音轉文字。")
+            return redirect('/')
+        
+
         
         @self.app.route('/speech', methods=['POST'])
         def SpeechResult():
