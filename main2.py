@@ -141,7 +141,7 @@ class Server:
     def check_timeout(self):
         # 每過一秒就判斷一次
         # 滿足條件就翻譯語序
-        if (self.alarm_set and (abs(time.time() - self.last_updated_time) >= 5)):
+        if (self.alarm_set and (abs(time.time() - self.last_updated_time) >= 5) or (len(self.data_list)>3)):
             # 修改DATA型態
             data_result = ' '.join(self.data_list)#將[1,2]的資料型態轉為"1 2"
             # 判斷語序
