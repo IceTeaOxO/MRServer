@@ -1,22 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>个人网页</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            line-height: 1.5;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模型切換界面</title>
 </head>
 <body>
-    <h1>欢迎来到我的个人网页</h1>
-    <p>这是一个使用Python和Flask创建的简单个人网页示例。</p>
+    <h1>語序模型切換界面</h1>
+    <form action="/change_model" method="post">
+        <label for="model">選擇語序模型:</label>
+        <select name="model" id="model">
+            <option value="model1">Model 1029</option>
+            <!-- 你可以根據需求添加更多模型選項 -->
+        </select>
+        <input type="submit" value="切換模型">
+    </form>
+    <h1>手語模型切換界面</h1>
+    <form action="/change_hands_model" method="post">
+        <label for="model">選擇手語模型:</label>
+        <select name="model" id="model">
+            <option value="model1">hands_model</option>
+            <!-- 你可以根據需求添加更多模型選項 -->
+        </select>
+        <input type="submit" value="切換模型">
+    </form>
+    <br>
+    現在使用的語序辨識模型:{{ model_name }}
+    <br>
+    <br>
+    現在使用的手語辨識模型:{{ hands_model_name }}
+    <br>
+    <br>
+    <form action="/stop" method="post">
+        <input type="submit" value="終止手語辨識">
+    </form>
+    <br>
+    <br>
+    <form action="/startSpeech" method="post">
+        <input type="submit" value="開啟語音轉文字">
+    </form>
+    <br>
+    <br>
+    <form action="/stopSpeech" method="post">
+        <input type="submit" value="終止語音轉文字">
+    </form>
+    <!-- 你可以添加其他需要的HTML元素，例如顯示當前選擇的模型、手語辨識結果等 -->
+    <br>
+    <br>
+    <form action="/DATA" method="get">
+        <input type="submit" value="查看資料">
+    </form>
 </body>
 </html>

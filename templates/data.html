@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動態列表</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .list-container {
+            margin: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+
+        /* 将按钮居中 */
+        .center {
+            display: flex;
+            justify-content: center;
+            
+            height: 10vh;
+        }
+        /* 设置按钮样式 */
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            
+        }
+
+        .button {
+            background-color: #3498db; /* 背景颜色 */
+            color: #fff; /* 文本颜色 */
+            padding: 10px 20px; /* 内边距 */
+            font-size: 28px; /* 字体大小 */
+            border: none; /* 移除边框 */
+            cursor: pointer; /* 鼠标样式 */
+            border-radius: 5px; /* 圆角 */
+            margin-left: 60px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h2>回到控制台</h2>
+    <form action="/" method="get">
+        <input type="submit" value="回到控制台">
+    </form> -->
+    <div class="center">
+    <form action="/change_hands_model" method="get">
+        <button class="button" type="submit">開啟手語辨識</button>
+    </form>
+    <form action="/stop" method="get">
+        <button class="button" type="submit">關閉手語辨識</button>
+    </form>
+    </div>
+
+
+    <div class="center">
+        <form action="/startSpeech" method="get">
+            <button class="button" type="submit">開啟語音辨識</button>
+        </form>
+        <form action="/stopSpeech" method="get">
+            <button class="button" type="submit">關閉語音辨識</button>
+        </form>
+    </div>
+
+    <div class="center">
+        <form action="/clear" method="get">
+            <button class="button" type="submit">清除資料</button>
+        </form>
+    </div>
+
+    <br>
+    <div id="list1" class="list-container">
+        <h2>手語辨識結果</h2>
+        <ul></ul>
+    </div>
+    <div id="list2" class="list-container">
+        <h2>語序辨識結果</h2>
+        <ul></ul>
+    </div>
+    <div id="list3" class="list-container">
+        <h2>語音轉文字</h2>
+        <ul></ul>
+    </div>
+
+    <script>
+        var data1 = {{ history | tojson | safe }};
+        var data2 = {{ translate | tojson | safe }};
+        var data3 = {{ speech | tojson | safe }};
+
+        function fetchData() {
+            fetch('/get_data')
+                .then(response => response.json())
+                .then(data => {
+                    renderList('list1', data.history);
+                    renderList('list2', data.translate);
+                    renderList('list3', data.speech);
+                });
+        }
+
+        function renderList(id, data) {
+            var list = document.getElementById(id).getElementsByTagName('ul')[0];
+            list.innerHTML = ''; // 清空列表以便重新渲染
+            data.forEach(function(item) {
+                var li = document.createElement('li');
+                li.appendChild(document.createTextNode(item));
+                list.appendChild(li);
+            });
+        }
+
+        setInterval(fetchData, 500); // 每5秒執行一次fetchData
+    </script>
+</body>
+</html>
