@@ -327,6 +327,14 @@ class Server:
         def get_data():
             # return jsonify(history=self.history_data_list, translate=self.trans_list, speech=self.speech_list)
             return jsonify(history=self.data_list, translate=self.trans_list, speech=self.speech_list)
+        
+        @self.app.route('/clear', methods=['GET'])
+        def clear_data():
+            self.data_list = []
+            self.trans_list = []
+            self.speech_list = []
+            return render_template('data.html', history=self.data_list, translate=self.trans_list, speech=self.speech_list)
+        
     def run(self):
         # thread = Thread(target=self.add_number)
         # thread.start()
